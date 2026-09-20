@@ -2,6 +2,18 @@
 
 A small Flask webhook server and Plaid data runner.
 
+## License
+
+This project is available under the [Revenue-Based Sponsorship License](LICENSE).
+Use is free for individuals and organizations with less than USD 300,000 in
+annual revenue. Above that threshold, the license requires a regressive
+sponsorship payment based on the user's total annual revenue. This custom
+license is source-available and is not an OSI-approved open-source license.
+
+The license applies only to this project's code. Third-party packages retain
+their own licenses; when redistributing them, retain the package license and
+notice files included with those packages.
+
 ## Setup
 
 Requires Python 3.13+ and [uv](https://docs.astral.sh/uv/).

@@ -6,6 +6,8 @@ build-backend = "uv_build"
 name = "myownbytes"
 version = "0.0.1.1"
 
+license = { file = "LICENSE" }
+
 description = "Light weight webhook server for catching plaid webhooks and a cli for data ingestion"
 
 authors = [{ name = "oatsncrows", email = "xjames.rainsx@gmail.com" }]
