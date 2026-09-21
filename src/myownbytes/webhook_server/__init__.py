@@ -70,8 +70,3 @@ def serve():
 def test():
     app = app_init("test")
     app.run()
-
-def dev():
-    app = app_init("test")
-    app.testing = False
-    app.run(debug=True)
