@@ -65,7 +65,7 @@ def app_init(config: str | None = None)-> Flask:
 def serve():
     """Run webhook listener"""
     app = app_init()
-    waitress.serve(app, host="0.0.0.0",port=5000)
+    waitress.serve(app, host="127.0.0.1",port=5000)
 
 def test():
     app = app_init("test")
