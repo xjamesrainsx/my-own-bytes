@@ -6,7 +6,7 @@ build-backend = "uv_build"
 name = "myownbytes"
 version = "0.0.1.1"
 
-license = { file = "LICENSE" }
+license = "GPL-3.0-only"
 
 description = "Light weight webhook server for catching plaid webhooks and a cli for data ingestion"
 
